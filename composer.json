@@ -1,0 +1,38 @@
+{
+  "name": "kusflo/docker-php-72-infrastructure",
+  "type": "library",
+  "minimum-stability": "dev",
+  "description": "Local infrastructure for the development of php 7.2 + mysql + nginx + network projects.",
+  "keywords": [
+    "php",
+    "docker",
+    "docker-compose",
+    "infrastructure",
+    "local",
+    "LAMP",
+    "nginx",
+    "mysql",
+    "network"
+  ],
+  "homepage": "https://github.com/kusflo/docker-php-72-infrastructure",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcos Redondo",
+      "email": "kusflo@gmail.com",
+      "role": "Full-Stack Developer"
+    }
+  ],
+  "require-dev": {
+
+  },
+  "require": {
+    "php": ">=5.6",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Example\\": "application/"
+    }
+  }
+}
